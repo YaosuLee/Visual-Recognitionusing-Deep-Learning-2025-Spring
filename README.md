@@ -11,5 +11,13 @@ To achieve this, I employ **ResNetaa101D**, which has approximately **44.6M para
 - **Anti-Aliasing**  
 - **Label Smoothing**  
 
+## Training 
+The training code will save the prediction.csv base on the best checkpoint.
+!python train.py
+
+## Val
+To get the confusion matrix on validation dataset.
+!python val.py
+
 ## Performance Snapshot
 ![Performance Snapshot](./Snapshot.png)  
